@@ -72,3 +72,4 @@ WHERE emp_no = 499942
 SELECT employees.emp_no, salaries.salary, titles.title
 FROM employees
 LEFT JOIN salaries ON employees.emp_no=salaries.emp_no
+LEFT JOIN titles ON employees.emp_title_id=titles.title_id
