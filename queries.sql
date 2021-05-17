@@ -67,3 +67,8 @@ ORDER BY "Frequency Count" DESC
 --EPILOGUE. HAHAHAHA NICE ONE
 SELECT * FROM employees
 WHERE emp_no = 499942
+
+--FOR BONUS MATERIAL
+SELECT employees.emp_no, salaries.salary, titles.title
+FROM employees
+LEFT JOIN salaries ON employees.emp_no=salaries.emp_no
