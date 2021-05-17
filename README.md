@@ -18,7 +18,7 @@ I highly recommend that the compensation committie conduct a thorough review of 
 
 **REPOSITORY NAVIGATION**
 
-* [*Database Visual Schemata*](https://github.com/kennethcandersen/sql-challenge/blob/main/schema_v4.png) presents a visual diagram of the employee database. 
+* [*Database Visual Schemata*](https://github.com/kennethcandersen/sql-challenge/blob/main/schema.png) presents a visual diagram of the employee database. 
 * [*Database Postgre Schematic*](https://github.com/kennethcandersen/sql-challenge/blob/main/table_schemata.sql) contains the Postgre SQL code to set up database tables.
 * [*Database Queries*](https://github.com/kennethcandersen/sql-challenge/blob/main/queries.sql) contains Postgre SQL to explore the data. 
 * [*Data Analysis in Jupyter Notebook*](https://github.com/kennethcandersen/sql-challenge/blob/main/bonus_material.ipynb) contains code to import the database data into Pandas, with a [histogram of salary ranges](https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_histogram.jpg) and [average salary by position](https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_by_position.jpg). 
@@ -35,12 +35,17 @@ Analyze compensation data for over 300,000 employees:
 **DATA** 
 
 - Import human resources data from csv files
-
-<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/schema_v4.png"><
+<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/schema.png">
 
 - Structure data in a Postgre database
-- 
-- Export data from the Postgre database to a Jupyter Notebook
+<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/table_schemata_sample_code.png">
+
+- Run queries
+<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/queries_sample_code.png">
+
+- Export data from the Postgre database to a Jupyter Notebook to analyze and plot
+<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/sample_bar_chart_code.png">
+
 
 
 **DEPENDENCIES**
@@ -56,6 +61,7 @@ Analyze compensation data for over 300,000 employees:
 
  <table style="width:100%">
   <tr valign="top">
+    <th><img height="300" alt="Average Salaries Histogram" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/salary_data_stats_description.png"></th>
     <th><img height="300" alt="Average Salaries Histogram" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_histogram.jpg"></th>
     <th><img height="300" alt="Average Salaries by Position" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_by_position.jpg"></th>
   </tr>
