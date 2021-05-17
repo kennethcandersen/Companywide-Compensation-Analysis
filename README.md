@@ -1,6 +1,11 @@
 ## Companywide Compensation Analysis
 
-<img width="958" alt="Average Salaries by Position" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_by_position.jpg">
+ <table style="width:100%">
+  <tr>
+    <th><img width="450" alt="Average Salaries Histogram" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_histogram.jpg"></th>
+    <th><img width="450" alt="Average Salaries by Position" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_by_position.jpg"></th>
+  </tr>
+</table> 
 
 **EXECUTIVE SUMMARY**
 
