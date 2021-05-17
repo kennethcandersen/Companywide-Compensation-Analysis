@@ -9,7 +9,7 @@
 
 **EXECUTIVE SUMMARY**
 
-The analysis of salaries fo over 300,000 employees concludes that there are substantial distortions: 
+The analysis of salaries fo over 300,000 employees indicates that there are substantial distortions: 
 
 - Assistant Engineers, Senior Engineers and Tecnique Leaders have almost identical average salaries. 
 - Staff and Senior Staff also have nearly identical average salaries, and both make nearly 20% more than all engineers. 
