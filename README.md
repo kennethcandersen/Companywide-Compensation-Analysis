@@ -1,17 +1,22 @@
-## Company-wide Compensation Analysis
+## Companywide Compensation Analysis
 
-<img width="958" alt="Spotify_COVID_analysis" src="https://github.com/kennethcandersen/spotify-user-preferences-during-covid-analysis/blob/main/Spotify_COVID_analysis.png">
+<img width="958" alt="Average Salaries by Position" src="https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_by_position.jpg">
 
 **EXECUTIVE SUMMARY**
 
-Moderate and strong correlations in some countries between Covid infection rates and music valence ("happiness") preferences indicate that Spotify could adapt it's song recommendation algorithms to take into account how different countries respond to crisis. Some countries saw average valence preferences increase (users prefer happier music) and other countries decrease. Spotify can use this data to improve the user experience, opimize exclusive contracts with certain artists that match the ‘mood’ of each country, and tehreby increase premium subscription revenue. 
+The analysis of over 300,000 employee base salaries concludes that there are substantial distortions in compensation which should be addressed by the compensation committee. 
+
+- Assistant Engineers, Senior Engineers and Tecnique Leaders have almost identical average salaries. 
+- Staff and Senior Staff also have nearly identical average salaries, and both make nearly 20% more than all engineers. 
+
+I highly recommend a thorough review of the salary policies to avoid talent flight and/or a full scale revolution of the engineers. They are armed with nurf guns and are known to be dangerous when agitated. 
 
 **REPOSITORY NAVIGATION**
 
-* [*starter-codes*](https://github.com/verocastillo/data-project-1/tree/main/starter-codes) contains the initial base codes for our entire project, which tested Spotify's API and the plotting techniques.
-* [*data-exploration*](https://github.com/verocastillo/data-project-1/tree/main/data-exploration) contains the individual data handling, CSV files, inputs and outputs. Each country or region explored has it's own subfolder.
-* [*main-data-analysis*](https://github.com/verocastillo/data-project-1/tree/main/main-data-analysis) contains the integrated final codes that created the analysis plots, which pulled data from the exploration data on each country and region.
-* [*documents*](https://github.com/verocastillo/data-project-1/tree/main/documents) contains the [presentation](https://github.com/verocastillo/data-project-1/blob/main/documents/COVID%20and%20Spotify%20Trends_%20Presentation.pdf) and [written report](https://github.com/verocastillo/data-project-1/blob/main/documents/COVID%20and%20Spotify%20Trends_%20Written%20Report.pdf).
+* [*Database Visual Schemata*](https://github.com/kennethcandersen/sql-challenge/blob/main/schema_v4.png) presents a visual diagram of the employee database. 
+* [*Database Postgre Schematic*](https://github.com/kennethcandersen/sql-challenge/blob/main/table_schemata.sql) contains the Postgre SQL code to set up database tables.
+* [*Database Queries*](https://github.com/kennethcandersen/sql-challenge/blob/main/queries.sql) contains Postgre SQL to explore the data. 
+* [*Data Analysis in Jupyter Notebook*](https://github.com/kennethcandersen/sql-challenge/blob/main/bonus_material.ipynb) contains code to import the database data into Pandas, with a [histogram of salary ranges](https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_histogram.jpg) and [average salary by position](https://github.com/kennethcandersen/sql-challenge/blob/main/output_charts/average_salary_by_position.jpg). 
 
 
 **OBJECTIVE**
