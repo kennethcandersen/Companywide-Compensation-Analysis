@@ -35,16 +35,16 @@ Analyze compensation data for over 300,000 employees:
 **DATA** 
 
 - Import human resources data from csv files
-<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/schema.png">
+<img width="958" alt="Schema" src="https://github.com/kennethcandersen/sql-challenge/blob/main/schema.png">
 
 - Structure data in a Postgre database
-<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/table_schemata_sample_code.png">
+<img width="500" alt="Sample shema code" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/table_schemata_sample_code.png">
 
 - Run queries
-<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/queries_sample_code.png">
+<img width="300" alt="Sample query" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/queries_sample_code.png">
 
 - Export data from the Postgre database to a Jupyter Notebook to analyze and plot
-<img width="300" alt="Schemata" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/sample_bar_chart_code.png">
+<img width="300" alt="Sample Pandas code" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/sample_bar_chart_code.png">
 
 
 
