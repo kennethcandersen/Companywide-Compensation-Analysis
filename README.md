@@ -14,7 +14,7 @@ The analysis of salaries fo over 300,000 employees indicates that there are subs
 - Assistant Engineers, Senior Engineers and Tecnique Leaders have almost identical average salaries. 
 - Staff and Senior Staff also have nearly identical average salaries, and both make nearly 20% more than all engineers. 
 
-I highly recommend that the compensation committie conduct a thorough review of the salary policies to avoid talent flight and/or a full scale revolution of the engineers. They are armed with nurf guns and are known to be dangerous when agitated. 
+*Recommendation*:I highly recommend that the compensation committie conduct a thorough review of the salary policies to avoid talent flight and/or a full scale revolution of the engineers. They are armed with nurf guns and are known to be dangerous when agitated. 
 
 **REPOSITORY NAVIGATION**
 
@@ -38,13 +38,13 @@ Analyze compensation data for over 300,000 employees:
 <img width="958" alt="Schema" src="https://github.com/kennethcandersen/sql-challenge/blob/main/schema.png">
 
 - Structure data in a Postgre database and import data from csv files
-<img width="500" alt="Sample shema code" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/table_schemata_sample_code.png">
+<img width="300" alt="Sample shema code" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/table_schemata_sample_code.png">
 
 - Run queries
-<img width="500" alt="Sample query" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/queries_sample_code.png">
+<img width="958" alt="Sample query" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/queries_sample_code.png">
 
 - Export data from the Postgre database to a Jupyter Notebook to analyze and plot
-<img width="500" alt="Sample Pandas code" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/sample_bar_chart_code.png">
+<img width="958" alt="Sample Pandas code" src="https://github.com/kennethcandersen/sql-challenge/blob/main/code_screenshots/sample_bar_chart_code.png">
 
 
 
