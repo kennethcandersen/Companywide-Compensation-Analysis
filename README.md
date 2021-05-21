@@ -14,7 +14,7 @@ The analysis of salaries fo over 300,000 employees indicates that there are subs
 - Assistant Engineers, Senior Engineers and Tecnique Leaders have almost identical average salaries. 
 - Staff and Senior Staff also have nearly identical average salaries, and both make nearly 20% more than all engineers. 
 
-*Recommendation*:I highly recommend that the compensation committie conduct a thorough review of the salary policies to avoid talent flight and/or a full scale revolution of the engineers. They are armed with nurf guns and are known to be dangerous when agitated. 
+*Recommendation*: I highly recommend that the compensation committie conduct a thorough review of the salary policies to avoid talent flight and/or a full scale revolution of the engineers. They are armed with nurf guns and are known to be dangerous when agitated. 
 
 **REPOSITORY NAVIGATION**
 
