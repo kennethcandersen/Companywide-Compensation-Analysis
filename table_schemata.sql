@@ -3,11 +3,17 @@ DROP TABLE IF EXISTS dept_manager;
 DROP TABLE IF EXISTS dept_employee;
 DROP TABLE IF EXISTS departments; 
 DROP TABLE IF EXISTS salaries; 
-DROP TABLE IF EXISTS titles; 
 DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS titles; 
 
 --2. CREATE TABLES FROM SCRATCH
 
+CREATE TABLE titles (
+    title_id VARCHAR(5)   NOT NULL,
+    title VARCHAR(30)   NOT NULL,
+    PRIMARY KEY (title_id)
+	);
+	
 CREATE TABLE employees (
     emp_no INT   NOT NULL,
     emp_title_id VARCHAR(5)   NOT NULL,
@@ -16,19 +22,14 @@ CREATE TABLE employees (
     last_name VARCHAR(30)   NOT NULL,
     sex VARCHAR(1)   NOT NULL,
     hire_date Date   NOT NULL,
-    PRIMARY KEY (emp_no)
+    PRIMARY KEY (emp_no),
+	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 	);
 
 CREATE TABLE departments (
     dept_no VARCHAR(5) NOT NULL,
     dept_name VARCHAR(30)   NOT NULL,
     PRIMARY KEY (dept_no)
-	);
-
-CREATE TABLE titles (
-    title_id VARCHAR(5)   NOT NULL,
-    title VARCHAR(30)   NOT NULL,
-    PRIMARY KEY (title_id)
 	);
 
 CREATE TABLE salaries (
